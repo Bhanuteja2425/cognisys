@@ -1,9 +1,10 @@
-# Node
-node_modules/
-dist/
-
 # Python
+backend/venv/
 __pycache__/
-venv/
+*.pyc
 .env
-*.pdf
+
+# Node / React
+frontend/node_modules/
+.npm
+dist/
